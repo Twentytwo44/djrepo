@@ -20,3 +20,5 @@ python manage.py collectstatic --no-input
 # อัปเดตโครงสร้างฐานข้อมูล
 
 python manage.py migrate
+
+python manage.py createsuperuser --noinput || true
